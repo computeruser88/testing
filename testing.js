@@ -1,7 +1,7 @@
 vafr whtevs = "a"
 console.log(whtevs ==="b")
 
-module:exports = {
+module.exports = {
     assert: function(expected, actual, message = "Test") {
         if (expected === actual) {
             console.log(message);
